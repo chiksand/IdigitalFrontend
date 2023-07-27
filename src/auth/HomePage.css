@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+   
+  
+  .center {
+    text-align: center;
+  }
+  
+   
+  
+  .signin-btn,
+  .register-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 10px;
+  }
+  
+   
+  
+  .signin-btn {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+  }
+  
+   
+  
+  .register-btn {
+    background-color: #DB4437;
+    color: white;
+    border: none;
+  }
+  
+  
+  

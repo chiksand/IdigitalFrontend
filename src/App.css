@@ -1,38 +1,14 @@
-.App {
-  text-align: center;
+.app-sidebar{
+  border: 0px solid;
 }
+.background {
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  background-image: url("https://media.istockphoto.com/id/614506802/photo/man-newspaper-reading-on-table.jpg?s=1024x1024&w=is&k=20&c=ptjW-lyB9sCfOspr2cDGFyKJ-7F4RvDvwJn-sTmxPf0=");
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  background-repeat: no-repeat;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  background-size: cover;
 
-.App-link {
-  color: #61dafb;
-}
+  height: 600px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-links ul li {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+  }
+  
+  .login-button,
+  .signup-button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  
+  
